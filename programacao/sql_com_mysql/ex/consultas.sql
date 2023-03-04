@@ -1,7 +1,6 @@
--- Active: 1676335982496@@127.0.0.1@3306@olist
+-- Active: 1677872445893@@localhost@3306@olist
 
 
 
-SELECT COUNT(price)
-
+SELECT * 
 FROM tb_order_items;
