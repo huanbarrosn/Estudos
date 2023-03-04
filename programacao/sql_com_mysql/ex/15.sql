@@ -64,4 +64,4 @@ SELECT  t1.flag_avg_tempo,
 FROM tb_flags AS t1
 
 GROUP BY t1.flag_avg_tempo, t1.flag_90_dias
-ORDER BY t1.flag_avg_tempo;
+ORDER BY t1.flag_avg_tempo; 
