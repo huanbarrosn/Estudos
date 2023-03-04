@@ -1,4 +1,4 @@
--- Active: 1676335982496@@127.0.0.1@3306@olist
+-- Active: 1677872445893@@localhost@3306@olist
 
 /*
 Quais sellers estão a mais de 90 dias sem vender? 
@@ -65,5 +65,3 @@ FROM tb_flags AS t1
 
 GROUP BY t1.flag_avg_tempo, t1.flag_90_dias
 ORDER BY t1.flag_avg_tempo;
-
-
