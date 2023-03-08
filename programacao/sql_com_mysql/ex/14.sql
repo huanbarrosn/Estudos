@@ -1,4 +1,4 @@
--- Active: 1676335982496@@127.0.0.1@3306@olist
+-- Active: 1677872445893@@localhost@3306@olist
 
 /*
  Crie uma tabela que mostra o tempo entre as vendas dos seller? 
@@ -8,7 +8,7 @@
 DROP TABLE IF EXISTS avg_tempo_venda_seller;
 
 CREATE TABLE
-    avg_tempo_venda_seller AS (
+    tb_avg_tempo_venda_seller AS (
 
         WITH tb_seller_data AS (
                 SELECT
