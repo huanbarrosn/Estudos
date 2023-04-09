@@ -129,7 +129,7 @@ celerybeat.pid
 .env
 .venv
 env/
-.venv-estudos/
+venv-estudos/
 ENV/
 env.bak/
 venv.bak/
